@@ -29,3 +29,8 @@ scrape_configs:
     static_configs:
       - targets:
           - ecoflow_exporter:9091
+
+  - job_name: ecoflow_2
+    static_configs:
+      - targets:
+          - ecoflow_exporter_2:9092
